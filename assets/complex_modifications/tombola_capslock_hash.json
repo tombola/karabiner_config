@@ -1,0 +1,20 @@
+{
+    "title": "tombola caps hash",
+    "rules": [
+      {
+        "description": "Change caps_lock to # (via non_us_backslash)",
+        "manipulators": [
+            {
+                "from": {
+                    "key_code": "non_us_backslash"
+                },
+                "to": {
+                    "key_code": "3",
+                    "modifiers": ["option"]
+                },
+                "type": "basic"
+            }
+        ]
+      }
+    ]
+  }  

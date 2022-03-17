@@ -1,0 +1,31 @@
+{
+  "title": "tombola caps hyper",
+  "rules": [
+    {
+      "description": "Stop caps lock",
+      "manipulators": [
+          {
+              "description": "Change caps_lock to command+control+option",
+              "from": {
+                  "key_code": "caps_lock",
+                  "modifiers": {
+                      "optional": [
+                          "any"
+                      ]
+                  }
+              },
+              "to": [
+                  {
+                      "modifiers": [
+                          "left_command",
+                          "left_control",
+                          "left_option"
+                      ]
+                  }
+              ],
+              "type": "basic"
+          }
+      ]
+    }
+  ]
+}
